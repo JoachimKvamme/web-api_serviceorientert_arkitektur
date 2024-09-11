@@ -57,6 +57,7 @@ class MovieService : IMovieService
     }
 
     movie.Title = updateMovieInfo.Title;
+    movie.Description = updateMovieInfo.Description;
 
     // Update
     return movie;
