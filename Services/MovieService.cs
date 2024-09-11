@@ -10,6 +10,9 @@ class Movie
   {
     Title = title;
     Id = _id++;
+
+    // Gjør at Movie-klassen har en valgfri Description-egenskap,
+    // slik at man også kan legge til en beskrivelse.
     Description = description;
   }
 }
