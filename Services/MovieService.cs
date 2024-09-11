@@ -4,10 +4,13 @@ class Movie
   public int Id { get; set; }
   public string Title { get; set; }
 
-  public Movie(string title)
+  public string? Description {get; set;}
+
+  public Movie(string title, string? description)
   {
     Title = title;
     Id = _id++;
+    Description = description;
   }
 }
 
